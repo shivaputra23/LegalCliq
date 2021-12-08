@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/LCFavicon.png" type="image/x-icon" sizes="25x25" >  
+<style>
+    .buy{
+        background-color: rgb(221, 16, 102);
+        width: 4rem;
+    }
+
+    .name{
+        font-weight: bold;
+    }
+
+    .price{
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <a href="index.html"><img src="images/legal.png" width="55%" /></a>
+        <div class="navbar">
+          
+          <div>
+            <a href="index.html">Home</a>
+            <a href="products.html" class="active">Products</a>
+            <a href="services.html">Services</a>
+            <a href="aboutus.html">About us</a>
+            <a href="supplier.html">Supplieres</a>
+            <a href="contactus.html">Contact us</a>
+            <a href="blogs.html">Blogs</a>
+          </div>
+          <div>
+            <a href="login.html"  >Log in</a>
+          </div>
+        </div>   
+      </div>
+
+      <div>
+        <h2 style="text-align: center;">Products</h2>
+    </div>
+    <label>Select Product:</label>
+    <select name="products" >
+            <option value="0">iphone 13 pro</option>
+            <option value="1">mac book pro</option>
+            <option value="2">Apple watch</option>
+            <option value="3">Boat Rockerz</option>
+            <option value="4">Boat airdopes</option>
+            <option value="5">one Plus mobile</option>
+
+
+
+    </select>
+
+    <table style="width: 70%; margin-left: 20%; text-align: center;">
+        <thead>
+        <th>Select</th>   <th>Product name</th> <th>Product image</th> <th >Price</th> <th>Action</th>
+        </thead>
+        <tbody>
+            <tr>
+              <td><input type="checkbox" /></td>  <td  class="name"> iphone 13 pro</td> <td><img src="images/iphone.jfif" /></td> <td class="price">₹1,29,800</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+
+            <tr>
+              <td><input type="checkbox" /></td>  <td  class="name"> mac book pro</td> <td><img src="images/mac book pro.jfif" /></td> <td class="price">₹1,14,500</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" /></td>   <td  class="name">Apple watch</td> <td><img src="images/apple watch.jfif" /></td> <td class="price">₹28,400</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" /></td>   <td  class="name">Boat Rockerz 550</td> <td><img src="images/boat.jfif" /></td> <td class="price">₹4,000</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" /></td>   <td  class="name">One plus</td> <td><img src="images/oneplus.jfif" /></td> <td class="price">₹75,500</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" /></td>  <td  class="name">Boat Airdopes</td> <td><img src="images/airdopes.jfif" /></td> <td class="price">₹2,500</td> <td><button class='buy'>Buy</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <div class="footer" >
+         <h1 style="margin-top: 1rem;">
+  
+           This is LegalCliq Footer
+         </h1>
+        </div>
+      </footer>
+</body>
+</html>
