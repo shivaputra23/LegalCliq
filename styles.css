@@ -1,0 +1,191 @@
+
+
+*body {
+  font-family:  sans-serif ;
+  font-size: 14px;
+}
+
+
+.main{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.navbar {
+overflow: hidden;
+background-color: rgb(68, 3, 3);
+position: sticky;
+display: flex;
+justify-content: space-between;
+top: 0;
+padding: 5px;
+font-weight: bold;
+font-size: 16px;
+width: 80%;
+}
+
+.navbar a {
+float: left;
+display: block;
+color: rgb(221, 207, 207);
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.home{
+text-align: center;
+
+color: rgb(58, 4, 4);
+}
+ 
+  .navbar a:hover {
+    background-color: rgb(110, 109, 109);
+    color: black;
+  }
+  
+  .navbar a.active {
+   
+    color: rgb(207, 230, 8);
+  }
+
+
+
+  .home_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 15%;
+    
+  }
+
+  .home_main_two{
+    margin-left: 5%;
+  }
+
+  /* .bars{
+   display: flex; 
+   justify-content: space-between; 
+   width: 30%;
+   margin-left: 40%;
+  } */
+
+  
+
+/********************Login**********/
+
+
+.container {
+padding: 16px;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+}
+.input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+button {
+  border-radius: 4px;
+background-color: rgb(68, 3, 3);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+background-color: white;
+color: black;
+border: 2px solid gray;
+font-weight: bold;
+}
+ .input:hover{
+   border: 2px solid gray;
+ }
+ .signup{
+ background-color: rgb(15, 173, 160);
+ }
+
+
+/***************products*****************/
+
+
+table, th, td {
+    border: 2px ridge  black;
+  }
+  th{
+    background-color: rgb(68, 3, 3);
+    color: white;
+    padding: 5px;
+  }
+
+  table tbody td:hover{
+    color: rgb(15, 15, 15);
+    /* background-color: rgb(34, 21, 21); */
+    text-shadow: 2px 2px 8px rgb(107, 57, 57);
+  }
+
+  table tbody tr:nth-child(2n+1){
+    background-color: rgb(201, 197, 197);
+  }
+  table tbody tr:nth-child(2n){
+    background-color: honeydew;
+  }
+
+  /**************************Conatct us *************************/
+  .contact{
+    margin-left: 25%;
+    width: 40%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  /************************footer*******************/
+
+  .footer{
+  width: 100%;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   background-color: rgb(68, 3, 3);
+    height: 3rem;
+    text-align: center;
+    font-weight: bold;
+padding: 5px;
+color: wheat;
+  }
+
+  /*******************Blogs***********/
+  .side{
+    width: 20%;
+    height: 10%;
+    margin-left: 20px;
+    font-style: italic;
+  }
+
+  .blog{
+    display: flex; 
+    justify-content: center;
+  }
+
+  .goto{
+   display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
